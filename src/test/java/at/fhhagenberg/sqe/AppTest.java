@@ -8,13 +8,10 @@ import org.testfx.framework.junit5.ApplicationExtension;
 import org.testfx.framework.junit5.Start;
 import org.testfx.matcher.control.LabeledMatchers;
 
-import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 @ExtendWith(ApplicationExtension.class)
 public class AppTest {
-    private Button button;
-
     /**
      * Will be called with {@code @Before} semantics, i. e. before each test method.
      *
